@@ -1,4 +1,4 @@
-node {
+/*node {
     stage ('scm checkout'){
        git credentialsId: 'github_creds', url: 'https://github.com/kunchamrajkumar/my-app.git' 
     }
@@ -8,4 +8,4 @@ node {
     stage ('build docker image'){
         sh 'docker build -t tomcat:jre11-temurin .'
     }
-}
+}*/
